@@ -1,7 +1,13 @@
 #!/bin/bash
+echo "project management in github"
+arr = ('cat num1.txt','cat num2.txt') 
+value1=${arr[0]}
+value2=${arr[1]}
 
-value1=$(<num1.txt)
-value2=$(<num2.txt)
+
+
+
+
 
 if [ -z "$1" ]; then
 	echo "...none operator parameter..."
@@ -11,6 +17,7 @@ if [ -z "$1" ]; then
 	do
 	
 		echo ""
+
 		echo "num1 : " $value1
 		echo "num2 : " $value2
 	
